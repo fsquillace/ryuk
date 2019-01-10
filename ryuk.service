@@ -1,0 +1,8 @@
+[Unit]
+Description=Simple HTTP Server
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/SSimpleHTTPServer.py
+
+[Install]
+WantedBy=default.target
